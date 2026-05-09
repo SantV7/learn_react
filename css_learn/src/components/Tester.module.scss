@@ -1,0 +1,13 @@
+$primary: blue;
+$valueBoxShadowDefault: 0px 0px 10px black;
+
+.module_title {
+    background-color: $primary;
+    border-radius: 10px 20px 5px 10px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    text-shadow: 1px 1px 1px rgba(159, 145, 224, 0.329);
+    box-shadow: $valueBoxShadowDefault;
+}
