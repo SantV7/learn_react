@@ -6,7 +6,7 @@ import Tester from './components/Tester'
 
 function App() {
   
-  const n = 10
+  const themeWhite = true
   const name = 'vy'
   const redTitle = false
   
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <h1>Aprendendo CSS no React</h1>
-      <h2 style={ n >= 10 ? { color: 'blue' } : { color: 'gray' }}>Css Dinamico</h2>
+      <h2 className={themeWhite ? 'case-one' : 'case-two'}>Css Dinamico</h2>
       <h2 style={ name == 'Vy' ? { backgroundColor: 'gray' } : { backgroundColor: 'pink' }}>Css Dinamico 23</h2>
 
       <MyCompo />

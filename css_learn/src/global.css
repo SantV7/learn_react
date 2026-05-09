@@ -18,5 +18,10 @@ h2 {
     color: purple;
 }
 
-.redTitle {color: red;}
-.normalTitle {color: blue;}
+.case-one {
+    background-color: gray;
+}
+
+.case-two {
+    background-color: rgba(255, 166, 0, 0.74);
+}
