@@ -1,12 +1,10 @@
-
-
+import { Braces } from 'lucide-react';
 function App() {
   
 
   return (
     <>
-
-    <h1>Form Learn</h1>
+    <h1 style={{textAlign: 'center'}}>Form Learn | <Braces /></h1>
 
     
       
