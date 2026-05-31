@@ -1,21 +1,15 @@
 import { Braces } from 'lucide-react';
+import FormLearn from './components/FormLearn';
+import '../src/global.css'
 
 function App() {
   
 
   return (
     <>
-      <h1 style={{textAlign: 'center'}}>Form Learn | <Braces size={33} style={{marginBottom: '-7px'}} /></h1>
+      <h1 style={{textAlign: 'center', color: 'white'}}>Form Learn | <Braces size={33} color='orange' style={{marginBottom: '-7.5px'}}/> </h1>
 
-
-    <form>
-    
-    </form>
-
-    
-      
-     
-   
+      <FormLearn />
     </>
   )
 }
